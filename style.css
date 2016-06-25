@@ -1,0 +1,39 @@
+.white{
+    background-color: #ac8725;
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.moveHere{
+   background-color: yellow;
+}
+
+.cell{
+    position: relative;    
+/*
+    height: 13%;
+    width: 12%;
+*/
+}
+
+.piece{
+    position: absolute;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    z-index: 4;
+}
+
+#board{
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    display: flex; 
+    flex-flow: row wrap; 
+}
